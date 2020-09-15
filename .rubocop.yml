@@ -1,0 +1,30 @@
+Metrics/AbcSize:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/ClassLength:
+  Max: 400
+
+Metrics/BlockLength:
+  ExcludedMethods:
+    - describe
+    - context
+
+Style/NegatedIf:
+  Enabled: false
+
+Layout/HeredocIndentation:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: consistent_comma
